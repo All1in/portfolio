@@ -1,5 +1,6 @@
 import AppRouter from "./router/AppRouter";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import './styles/App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
         <Navbar />
         <AppRouter />
+        <Footer />
     </div>
   );
 }
