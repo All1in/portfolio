@@ -6,7 +6,7 @@ import './HomePage.css'
 
 const skills = [
      { tag: 'Front-end', mainSkills:  'ReactJS, Angular, Redux, HTML, CSS, NPM, Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents' },
-     { tag: 'Back-end', mainSkills: 'NodeJS, ExpressJS, GraphQL, ApolloServer, MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL' },
+     { tag: 'Back-end', mainSkills: 'NodeJS, ExpressJS, ApolloServer, MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3' },
      { tag: 'Languages', mainSkills: 'JavaScript, Python, TypeScript'}
 ]
 
@@ -30,7 +30,10 @@ const HomePage = () => {
                     {skills.map(skill => {
                         const { tag, mainSkills } = skill
                         return (
-                            <li className='item'>
+                            <li
+                                className='item'
+                                key={tag}
+                            >
                                 <h2> {tag} </h2>
                                 <span> {mainSkills} </span>
                             </li>
