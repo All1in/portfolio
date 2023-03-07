@@ -1,5 +1,9 @@
 ## Getting Started
 
+<div align="center">
+  <img width="90%" height="auto" src="https://i.stack.imgur.com/4ceLE.png" alt="" /> 
+</div>
+
 To run the project on your local machine, follow these steps:
 
 1. Clone the repository to your local machine
